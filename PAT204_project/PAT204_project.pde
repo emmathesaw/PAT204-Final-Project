@@ -13,7 +13,7 @@ which not only pans the audio, but the hearts follow and pan across the screen a
 
 Referenced: https://forum.processing.org/beta/num_1246205739.html
 Used to get a base of the heart shape in order for me to enhance it.
-Also utilized Professor Hao-Wen Dong's Linear Crossfade Max patch and
+Also utilized Professor Hao-Wen Dong's linear crossfade Max patch and
 drum machine using buffers Max patch.
 
 */
