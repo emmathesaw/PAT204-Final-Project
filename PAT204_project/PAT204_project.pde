@@ -98,14 +98,14 @@ void draw() {
     ohatVal = 0;
   }
   
-  //update and display circles by looping through ArrayList starting from newly added
+  //update and display hearts by looping through ArrayList starting from newly added
   for (int i = hearts.size() - 1; i >= 0; i--) {
     BeatHeart heart = hearts.get(i);
     //calls to member functions
     heart.update(); 
     heart.display();
     
-    //remove circles that are fully faded
+    //remove hearts that are fully faded
     if (heart.isFaded()) {
       hearts.remove(i);
     }
